@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ko<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -146,3 +146,68 @@
     <script src="script.js"></script>
 </body>
 </html>
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+.bg-gradient {
+    background: linear-gradient(135deg, #000000, #800020);
+}
+
+.btn-gold {
+    background-color: #D4AF37;
+    border-color: #D4AF37;
+    color: #000;
+}
+
+.btn-gold:hover {
+    background-color: #B8860B;
+    border-color: #B8860B;
+}
+
+.btn-burgundy {
+    background-color: #800020;
+    border-color: #800020;
+    color: #FFF;
+}
+
+.btn-burgundy:hover {
+    background-color: #5C001A;
+    border-color: #5C001A;
+}
+
+.bg-ivory {
+    background-color: #F5F5DC;
+}
+
+.brand-primary {
+    color: #D4AF37;
+    font-weight: bold;
+}
+
+.brand-secondary {
+    color: #800020;
+    font-weight: bold;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+// Smooth scrolling for navigation
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASHIONIXE & VELVETBLOOM - Luxury Clothing & Perfumes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <span class="brand-primary">FASHIONIXE</span> & <span class="brand-secondary">VELVETBLOOM</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#clothing">Clothing (FASHIONIXE.CO)</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#perfumes">Perfumes (VELVETBLOOM.CO)</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero bg-gradient text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Indulge in Luxury</h1>
+            <p class="lead">Discover timeless elegance with FASHIONIXE.CO clothing and VELVETBLOOM.CO perfumes—crafted for the discerning.</p>
+            <a href="#clothing" class="btn btn-gold btn-lg me-3">Explore Clothing</a>
+            <a href="#perfumes" class="btn btn-burgundy btn-lg">Explore Perfumes</a>
+        </div>
+    </section>
+
+    <!-- Clothing Section (FASHIONIXE.CO) -->
+    <section id="clothing" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold text-black">FASHIONIXE.CO - Luxury Clothing</h2>
+            <p class="text-center text-muted mb-5">Elevate your wardrobe with our exquisite collection of high-end apparel.</p>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="https://via.placeholder.com/400x300/000000/FFFFFF?text=Luxury+Dress" class="card-img-top" alt="Luxury Dress">
+                        <div class="card-body">
+                            <h5 class="card-title">Elegant Evening Gown</h5>
+                            <p class="card-text">$299.99</p>
+                            <a href="#" class="btn btn-gold">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="https://via.placeholder.com/400x300/000000/FFFFFF?text=Luxury+Suit" class="card-img-top" alt="Luxury Suit">
+                        <div class="card-body">
+                            <h5 class="card-title">Tailored Suit</h5>
+                            <p class="card-text">$499.99</p>
+                            <a href="#" class="btn btn-gold">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="https://via.placeholder.com/400x300/000000/FFFFFF?text=Luxury+Shoes" class="card-img-top" alt="Luxury Shoes">
+                        <div class="card-body">
+                            <h5 class="card-title">Designer Heels</h5>
+                            <p class="card-text">$199.99</p>
+                            <a href="#" class="btn btn-gold">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Perfumes Section (VELVETBLOOM.CO) -->
+    <section id="perfumes" class="py-5 bg-ivory">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold text-black">VELVETBLOOM.CO - Luxury Perfumes</h2>
+            <p class="text-center text-muted mb-5">Unveil your signature scent with our handcrafted fragrances.</p>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="https://via.placeholder.com/400x300/800020/FFFFFF?text=Luxury+Perfume" class="card-img-top" alt="Luxury Perfume">
+                        <div class="card-body">
+                            <h5 class="card-title">Velvet Rose</h5>
+                            <p class="card-text">$89.99</p>
+                            <a href="#" class="btn btn-burgundy">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="https://via.placeholder.com/400x300/800020/FFFFFF?text=Luxury+Perfume" class="card-img-top" alt="Luxury Perfume">
+                        <div class="card-body">
+                            <h5 class="card-title">Blooming Night</h5>
+                            <p class="card-text">$99.99</p>
+                            <a href="#" class="btn btn-burgundy">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="https://via.placeholder.com/400x300/800020/FFFFFF?text=Luxury+Perfume" class="card-img-top" alt="Luxury Perfume">
+                        <div class="card-body">
+                            <h5 class="card-title">Golden Essence</h5>
+                            <p class="card-text">$109.99</p>
+                            <a href="#" class="btn btn-burgundy">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-black text-white">
+        <div class="container text-center">
+            <h2 class="fw-bold">About Our Brands</h2>
+            <p>FASHIONIXE.CO and VELVETBLOOM.CO are born from a passion for luxury. Our clothing line offers timeless pieces, while our perfumes capture the essence of elegance.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-white">
+        <div class="container text-center">
+            <h2 class="fw-bold text-black">Contact Us</h2>
+            <p>Email: info@fashionixe.co | info@velvetbloom.co</p>
+            <p>Phone: +1 (123) 456-7890</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white text-center py-3">
+        <p>&copy; 2023 FASHIONIXE.CO & VELVETBLOOM.CO. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
